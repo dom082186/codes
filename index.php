@@ -9,5 +9,9 @@
 </head>
 <body>
 	
+	<main id="main-wrapper">
+		
+	</main> <!-- end of #main-wrapper -->
+
 </body>
 </html>
