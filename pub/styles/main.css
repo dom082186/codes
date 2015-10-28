@@ -1,0 +1,29 @@
+#main-header {
+	background: #3F86BA;
+	padding: 15px;
+}
+
+#main-header .main-navigation {
+	text-align: right;
+}
+
+#main-header .main-navigation li {
+	display: inline-block;
+}
+
+#main-header .main-navigation a {
+	color: #fff;
+	text-transform: uppercase;
+	display: block;
+	padding: 10px 25px;
+	border-radius: 4px;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+}
+
+#main-header .main-navigation a:hover {
+	background: #3a7aa9;
+}
