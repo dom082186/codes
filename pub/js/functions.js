@@ -7,3 +7,7 @@ $(function($) {
             $('.section-'+__tab).fadeIn();
         });
 });
+
+$(document).ready(function() {
+	
+});
