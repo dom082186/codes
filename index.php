@@ -13,15 +13,16 @@
 		<header id="main-header">
 			<nav class="main-navigation">
 				<ul>
-					<li><a href="#"><i class="fa fa-home fa-fw"></i> Home</a></li>
-					<li><a href="#"><i class="fa fa-css3 fa-fw"></i> CSS</a></li>
-					<li><a href="#"><i class="fa fa-jsfiddle fa-fw"></i> JQuery</a></li>
-					<li><a href="#"><i class="fa fa-wordpress fa-fw"></i> Wordpress</a></li>
+					<li><a href="javascript:void();" data-tab="home" class="active-menu"><i class="fa fa-home fa-fw"></i> Home</a></li>
+					<li><a href="javascript:void();" data-tab="css"><i class="fa fa-css3 fa-fw"></i> CSS</a></li>
+					<li><a href="javascript:void();" data-tab="jquery"><i class="fa fa-jsfiddle fa-fw"></i> JQuery</a></li>
+					<li><a href="javascript:void();" data-tab="wp"><i class="fa fa-wordpress fa-fw"></i> Wordpress</a></li>
 				</ul>
 			</nav> <!-- end of .main-navigation -->
 		</header> <!-- end of #main-header -->
 		<section id="main-section">
 			<?php include('pub/inc/home.php'); ?>
+			<?php include('pub/inc/css.php'); ?>
 		</section> <!-- end of #main-section -->
 		<footer id="main-footer">
 			

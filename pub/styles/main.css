@@ -1,14 +1,29 @@
 #main-header {
 	background: #3F86BA;
 	padding: 15px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 #main-header .main-navigation {
 	text-align: right;
 }
 
+#main-header .main-navigation ul {
+	font-size: 0;
+}
+
 #main-header .main-navigation li {
 	display: inline-block;
+	background: url(../images/nav-separator.png) no-repeat right center;
+	font-size: 14px;
+	padding: 0 5px;
+}
+
+#main-header .main-navigation li:last-child {
+	background: none;
 }
 
 #main-header .main-navigation a {
@@ -24,6 +39,19 @@
 	-o-transition: .5s;
 }
 
-#main-header .main-navigation a:hover {
+#main-header .main-navigation a:hover,
+#main-header .main-navigation a.active-menu {
 	background: #3a7aa9;
+}
+
+#main-section {
+	padding: 100px 0 0;
+}
+
+#main-section .content {
+	display: none;
+}
+
+#main-section .active-content {
+	display: block;
 }
