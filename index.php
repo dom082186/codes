@@ -10,7 +10,15 @@
 <body>
 	
 	<main id="main-wrapper">
-		
+		<header id="main-header">
+			
+		</header> <!-- end of #main-header -->
+		<section id="main-section">
+			
+		</section> <!-- end of #main-section -->
+		<footer id="main-footer">
+			
+		</footer> <!-- end of #main-footer -->
 	</main> <!-- end of #main-wrapper -->
 
 </body>
